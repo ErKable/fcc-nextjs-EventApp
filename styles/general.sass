@@ -1,0 +1,125 @@
+ul
+  list-style: none
+
+header 
+  height: 300px  
+  background: linear-gradient(-305deg, #dbfff3, transparent)  
+  padding: 15px 30px
+  >div
+    width: 100%
+    max-width: 1250px
+    margin: auto 
+    padding: 20px
+    display: flex
+    flex-direction: column
+    justify-content: space-between
+
+  h1 
+    width: 50%
+    font-size: 40px
+    text-transform: uppercase
+  .topNav
+    display: flex
+    justify-content: space-between
+    align-content: center    
+    ul
+      display: flex
+      text-decoration: none
+      list-style-type: none
+      gap: 15px
+      li
+        font-weight: 600
+        font-size: 16px
+
+main
+  width: 100%
+  margin: auto   
+  padding: 10px 10%
+  min-height: 550px
+
+.home_body
+  display: flex
+  flex-direction: column
+  gap: 50px
+  .image
+    width: 100%
+  .card
+    display: flex 
+    flex-direction: row
+    justify-content: space-around    
+    align-items: center
+    &:nth-child(even)
+      direction: rtl
+    .content
+      width: 50%  
+
+
+footer
+  background-color: #333
+  color: #fff
+  padding: 10px
+  text-align: center
+
+.aboutUsList
+  display: flex 
+  flex-direction: row
+  padding: 20px 10px
+
+.events_page
+  display: flex
+  flex-direction: row
+  gap: 20px
+  .card
+    position: relative
+    h2 
+      position: absolute
+      top: 50%
+      text-align: center
+      text-size: 38px
+      color: white
+      text-transfor: uppercase
+      text-shadow: 1px 1px 20px black
+
+.cat_events
+  width: 100%
+  .contents
+    display: flex
+    flex-direction: row
+    flex-wrap: wrap
+    gap: 30px
+    justify-content: flex-start
+    width: 100%
+    .cards
+      display: flex
+      flex-direction: column
+      width: 30%
+
+.event_single_page
+  .email_registration
+    label
+      display: flex
+      margin-bottom: 15px
+      font-size: 18px
+      font-weight: 800
+      text-transform: uppercase
+      margin-top: 25px
+    input
+      height: 40px     
+      min-width: 350px
+      border-radius: 5px
+      border: 1px solid #ccc
+      padding-left: 2px
+      font-size: 16px
+    button
+      height: 40px     
+      min-width: 150px
+      border-radius: 5px
+      font-size: 16px
+      border: 1px solid #5f5a5a
+      text-transform: uppercase
+      font-weight: 600
+      background: #dcfff3
+      cursor: pointer
+      &:hover
+        color: #dcfff3
+        background: #333
